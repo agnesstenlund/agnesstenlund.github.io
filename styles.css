@@ -616,3 +616,11 @@ span.details {
 
 }
 
+@media all and (max-width: 900px) {
+
+.other-work{
+	display:none;
+}
+
+}
+
