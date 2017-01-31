@@ -68,12 +68,12 @@ body {
 	position:relative;
 }
 
+
 .portfolio-right {
 	text-align:left;
 	margin-bottom:50px;
 	margin-top:50px;
 	position:relative;
-
 }
 
 
@@ -86,6 +86,23 @@ body {
 }
 
 
+.icon-img {
+	width:23px;
+	max-width:100%;
+	z-index:0;
+	padding:15px;
+}
+
+.icon {
+	width:120px;
+	max-width:100%;
+	z-index:0;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:40px;
+	display:block;
+}
+
 
 img.horizontal{
 	max-width:100%;
@@ -95,12 +112,14 @@ img.horizontal{
 	position:relative;
 }
 
+
 img.vertical{
 	width:372px;
 	max-width:100%;
 	z-index:0;
 	position:relative;
 }
+
 
 .vertical-2 {
 	width:750px;
