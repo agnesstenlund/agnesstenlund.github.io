@@ -602,11 +602,11 @@ span.details {
 	}
 
 	h3 {
-	font-size:35px;
+	font-size:26px;
 	border-bottom:none;
-	text-decoration:underline;
+	text-decoration:none;
 	left:-20px;
-	margin-top:35px;
+	margin-top:-20px;
 	}
 
 	h3.left {
