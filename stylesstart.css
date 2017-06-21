@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-color:#008dc2;
+}
+
+
+.top-section {
+	background-image: url(src/agnes-lemon.jpg);
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text {
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	text-align:center;
+	padding:100px;
+}
+
+
+h1 {
+	font-family:"Canela web";
+	font-size:56px;
+	color:white;
+	margin:0px;
+	margin-bottom:12px;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+h2 {
+	font-family: "apercu";
+	font-size: 12px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+h2.button {
+	border:2px solid white;
+	background-color:white;
+	width:150px;
+	height:25px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+	color:blue;
+	text-decoration:none;
+	position:relative;
+	display:inline-block;
+	margin-right:20px;
+}
+
+h2.button:hover {
+	border:2px solid blue;
+	color:white;
+	background-color:blue;
+	text-decoration:none;
+}
+
+h2.button2 {
+	border:2px solid white;
+	width:150px;
+	height:25px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	position:relative;
+	display:inline-block;
+}
+
+h2.button2:hover {
+	border:2px solid blue;
+	color:blue;
+	text-decoration:none;
+}
