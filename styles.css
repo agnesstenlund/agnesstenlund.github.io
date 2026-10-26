@@ -181,6 +181,21 @@ h1 a:hover {
 	border-bottom:4px blue solid;
 }
 
+h1.header a {
+	color:inherit;
+	font-family:inherit;
+	font-weight:inherit;
+	font-size:inherit;
+	text-decoration:underline;
+	text-decoration-thickness:1px;
+	text-underline-offset:0.15em;
+}
+
+h1.header a:hover {
+	border-bottom:none;
+	color:blue;
+}
+
 
 h1.header {
 	max-width:500px;
