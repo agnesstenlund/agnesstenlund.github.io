@@ -1,0 +1,8 @@
+# Privat material ska aldrig hamna i det här publika repot
+.DS_Store
+.htaccess
+*.pdf
+*.psd
+*cover*letter*
+*coverletter*
+private/

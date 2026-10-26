@@ -1,0 +1,102 @@
+div, p, html,body {
+	color: black;
+	font-family: "cardo", "apercu", georgia, serif;
+	line-height:1.3;
+	font-size: 24px;
+	margin:0;
+	padding:0;
+}
+
+
+@font-face { 
+	font-family: "CanelaWeb-Regular"; 
+	src:url("CanelaWeb-Regular.otf") format("otf"),
+		url("CanelaWeb-Regular.woff") format("woff");
+} 
+
+@font-face { 
+	font-family: "Apercu"; 
+	font-weight: bold; 
+	src:url("apercu-bold-webfont.eot") format("eot"), 
+		url("apercu-bold-webfont.ttf")format("ttf"),
+		url("apercu-bold-webfont.woff") format("woff");
+}
+
+@font-face { 
+	font-family:"Apercu"; 
+	font-weight: 100; 
+	src: url("apercu-light-webfont.ttf") format("ttf"),
+		url("apercu-light-webfont.woff") format("woff");
+}
+
+@font-face { 
+	font-family:"Apercu"; 
+	src: url("apercu-medium-webfont.ttf")format("ttf"),
+		url("apercu-medium-webfont.woff") format("woff");
+}
+
+
+.content {
+	width:690px;
+	max-width:100%;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	z-index:1;
+	margin-bottom:150px;
+	}
+
+h1 {
+	font-size:36px;
+	text-align:center;
+	font-family:"apercu";
+	letter-spacing:4px;
+}
+
+h2 {
+	font-size:40px;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:70px;
+	padding-left:60px;
+	padding-right:60px;
+	font-weight:100;
+
+}
+
+h3 {
+	font-size:18px;
+	font-family:"apercu", "lato", "karla", "work sans","roboto mono";
+	font-weight:300;
+	line-height:1.8;
+	color:black;
+	padding:40px;
+
+}
+
+a {
+	text-decoration:underline;
+	color:black;
+}
+
+a.hover {
+	text-decoration:none;
+}
+
+img.header {
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	max-width: 100%
+}
+
+img.footer {
+	width:100%;
+	display: block;
+	position: fixed;
+	bottom:0;
+	z-index:0;
+}
+
